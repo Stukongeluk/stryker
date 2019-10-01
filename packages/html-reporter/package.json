@@ -1,0 +1,55 @@
+{
+  "name": "@stryker-mutator/html-reporter",
+  "version": "2.1.0",
+  "description": "An html reporter for the JavaScript mutation testing framework Stryker",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "scripts": {
+    "test": "nyc --exclude-after-remap=false --check-coverage --reporter=html --report-dir=reports/coverage --lines 95 --functions 95 --branches 90 npm run mocha",
+    "mocha": "mocha \"test/helpers/**/*.js\" \"test/unit/**/*.js\" && mocha --timeout 20000 \"test/helpers/**/*.js\" \"test/integration/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stryker-mutator/stryker.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "stryker",
+    "@stryker-mutator/reporter-plugin",
+    "html",
+    "report",
+    "mutation",
+    "testing"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Nico Jansen <nicoj@infosupport.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stryker-mutator/stryker/issues"
+  },
+  "homepage": "https://github.com/stryker-mutator/stryker/tree/master/packages/html-reporter#readme",
+  "dependencies": {
+    "@stryker-mutator/api": "^2.1.0",
+    "@stryker-mutator/util": "^2.1.0",
+    "file-url": "~3.0.0",
+    "mkdirp": "~0.5.1",
+    "mutation-testing-elements": "^1.0.2",
+    "rimraf": "~3.0.0"
+  },
+  "peerDependencies": {
+    "@stryker-mutator/core": "^2.0.0"
+  },
+  "devDependencies": {
+    "@stryker-mutator/test-helpers": "^2.1.0",
+    "@types/jsdom": "~12.2.0",
+    "@types/node": "^10.11.5"
+  },
+  "contributors": [
+    "Nico Jansen <jansennico@gmail.com>",
+    "Simon de Lang <simondelang@gmail.com>"
+  ]
+}

@@ -3,6 +3,189 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/stryker-mutator/stryker/compare/v2.0.2...v2.1.0) (2019-09-08)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+## [2.0.2](https://github.com/stryker-mutator/stryker/compare/v2.0.1...v2.0.2) (2019-07-11)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+## [2.0.1](https://github.com/stryker-mutator/stryker/compare/v2.0.0...v2.0.1) (2019-07-02)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+# [2.0.0](https://github.com/stryker-mutator/stryker/compare/v1.3.1...v2.0.0) (2019-05-17)
+
+
+### Features
+
+* **node 6:** drop support for node 6 ([#1517](https://github.com/stryker-mutator/stryker/issues/1517)) ([801d7cd](https://github.com/stryker-mutator/stryker/commit/801d7cd))
+
+
+### BREAKING CHANGES
+
+* **node 6:** support for Node 6 has been dropped. Node 8 or higher is now required.
+
+
+
+
+
+## [1.3.1](https://github.com/stryker-mutator/stryker/compare/v1.3.0...v1.3.1) (2019-04-26)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+# [1.3.0](https://github.com/stryker-mutator/stryker/compare/v1.2.0...v1.3.0) (2019-04-24)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+# [1.2.0](https://github.com/stryker-mutator/stryker/compare/v1.1.1...v1.2.0) (2019-04-02)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+## [1.1.1](https://github.com/stryker-mutator/stryker/compare/v1.1.0...v1.1.1) (2019-03-21)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+# [1.1.0](https://github.com/stryker-mutator/stryker/compare/v1.0.3...v1.1.0) (2019-03-04)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+## [1.0.3](https://github.com/stryker-mutator/stryker/compare/v1.0.2...v1.0.3) (2019-02-26)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+## [1.0.1](https://github.com/stryker-mutator/stryker/compare/v1.0.0...v1.0.1) (2019-02-13)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+## [1.0.0](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.17...@stryker-mutator/grunt-stryker@1.0.0) (2019-02-13)
+
+
+### Features
+
+* **init:** Make stryker init work with new naming scheme ([fefd0ae](https://github.com/stryker-mutator/stryker/commit/fefd0ae))
+* **rename:** rename `stryker-xxx-xxx` -> `[@stryker-mutator](https://github.com/stryker-mutator)/xxx-xxx` ([1bbd6ff](https://github.com/stryker-mutator/stryker/commit/1bbd6ff))
+
+
+### BREAKING CHANGES
+
+* **rename:** The core package and plugins have been renamed: grunt-stryker -> @stryker-mutator/grunt-stryker
+
+
+
+
+
+## [0.13.17](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.16...grunt-stryker@0.13.17) (2019-02-12)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+## [0.13.16](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.15...grunt-stryker@0.13.16) (2019-02-08)
+
+**Note:** Version bump only for package grunt-stryker
+
+
+
+
+
+<a name="0.13.15"></a>
+## [0.13.15](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.14...grunt-stryker@0.13.15) (2018-12-23)
+
+
+
+
+**Note:** Version bump only for package grunt-stryker
+
+<a name="0.13.14"></a>
+## [0.13.14](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.13...grunt-stryker@0.13.14) (2018-12-12)
+
+
+### Bug Fixes
+
+* **stryker-api:** Update stryker-api peer dependency version ([677fc28](https://github.com/stryker-mutator/stryker/commit/677fc28))
+
+
+
+
+<a name="0.13.13"></a>
+## [0.13.13](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.12...grunt-stryker@0.13.13) (2018-11-29)
+
+
+
+
+**Note:** Version bump only for package grunt-stryker
+
+<a name="0.13.12"></a>
+## [0.13.12](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.11...grunt-stryker@0.13.12) (2018-11-13)
+
+
+
+
+**Note:** Version bump only for package grunt-stryker
+
+<a name="0.13.11"></a>
+## [0.13.11](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.9...grunt-stryker@0.13.11) (2018-10-15)
+
+
+### Bug Fixes
+
+* **version:** Version bump for failed release ([8cf9e87](https://github.com/stryker-mutator/stryker/commit/8cf9e87))
+
+
+
+
+<a name="0.13.9"></a>
+## [0.13.9](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.8...grunt-stryker@0.13.9) (2018-10-03)
+
+
+
+
+**Note:** Version bump only for package grunt-stryker
+
 <a name="0.13.8"></a>
 ## [0.13.8](https://github.com/stryker-mutator/stryker/compare/grunt-stryker@0.13.7...grunt-stryker@0.13.8) (2018-09-14)
 

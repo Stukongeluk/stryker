@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.settings.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "esModuleInterop": true
+  },
+  "include": [
+    "src",
+    "typings"
+  ],
+  "references": [
+    {
+      "path": "../api/tsconfig.src.json",
+    }
+  ]
+}

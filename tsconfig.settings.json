@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": false,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "es2017"
+    ]
+  }
+}

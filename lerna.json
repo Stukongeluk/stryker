@@ -3,10 +3,10 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent",
-  "commands":{
-    "publish": {
-      "conventionalCommits": true
+  "version": "2.1.0",
+  "command": {
+    "version": {
+      "allowBranch": "master"
     }
   }
 }
